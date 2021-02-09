@@ -1,8 +1,8 @@
 # OpenWrt-Build
 OpenWrt for Nanopi R2S R4S
-![OpenWrt-R2S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/R2S-OpenWrt/badge.svg)
-![OpenWrt-R4S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/R4S-OpenWrt/badge.svg)
-![OpenWrt-X86](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/X86-OpenWrt/badge.svg)
+![OpenWrt-R2S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S/badge.svg)
+![OpenWrt-R4S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R4S/badge.svg)
+![OpenWrt-X86](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-X86/badge.svg)
 
 ## Based on the original OpenWrt, build for Friendly NanoPi
 [Github-OpenWrt](https://github.com/openwrt/openwrt)[Friendly NanoPi R2s](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R2S)
