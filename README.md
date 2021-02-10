@@ -26,7 +26,7 @@ IP: 192.168.1.1
 Password: None
 
 ### Package
-- Docker(not stable)
+- Docker (not stable)
 - SSRP
 - PassWall
 - OpenClash
@@ -37,7 +37,7 @@ Password: None
 - SmartDNS
 - ChinaDNS
 - 网络唤醒
-- 迅雷快鸟(only nodocker version)
+- 迅雷快鸟 (only nodocker version)
 - DDNS
 - UPNP
 - irq
