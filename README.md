@@ -1,5 +1,6 @@
 # OpenWrt-Build
 OpenWrt for Nanopi R2S R4S
+
 ![OpenWrt-R2S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S/badge.svg)
 ![OpenWrt-R2S-nodocker](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S-nodocker/badge.svg)
 <!--
@@ -22,7 +23,7 @@ IP: 192.168.1.1
 Password: None
 
 ### Package
-- Docker(实验性)
+- Docker(not stable)
 - SSRP
 - PassWall
 - OpenClash
