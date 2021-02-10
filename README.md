@@ -5,9 +5,8 @@ OpenWrt for Nanopi R2S R4S
 ![OpenWrt-R2S-nodocker](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S-nodocker/badge.svg)
 ![OpenWrt-R4S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R4S/badge.svg)
 ![OpenWrt-R4S-nodocker](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R4S-nodocker/badge.svg)
-<!--
-![OpenWrt-R4S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R4S/badge.svg)
-![OpenWrt-X86](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-X86/badge.svg)-->
+![OpenWrt-X86](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-X86/badge.svg)
+![OpenWrt-X86-nodocker](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-X86-nodocker/badge.svg)
 
 ## Based on the original OpenWrt, build for Friendly NanoPi
 [Github-OpenWrt](https://github.com/openwrt/openwrt) | [Friendly NanoPi R2s](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R2S)
@@ -38,6 +37,7 @@ Password: None
 - SmartDNS
 - ChinaDNS
 - 网络唤醒
+- 迅雷快鸟(only nodocker version)
 - DDNS
 - UPNP
 - irq
