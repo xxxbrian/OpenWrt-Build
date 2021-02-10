@@ -13,10 +13,12 @@ OpenWrt for Nanopi R2S R4S
 ### Now Supports R2S/R4S/X86
 
 ### Dowload
-- [X86](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/X86)
 - [R2S](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/R2S)
 - [R2S Without Docker](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/R2S-nodocker) (The most stable version)
 - [R4S](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/R4S)
+- [R4S Without Docker](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/R4S-nodocker) (The most stable version)
+- [X86](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/X86)
+- [X86 Without Docker](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/X86-nodocker) (The most stable version)
 
 ### Usage
 IP: 192.168.1.1 
