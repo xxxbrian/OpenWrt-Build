@@ -165,7 +165,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: R4S
+        tag_name: R4S-$(date +%Y-%m-%d)
         release_name: 自动发布 ${{ steps.assemble_artifact.outputs.release_tag }}
         draft: false
         prerelease: false
