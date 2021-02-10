@@ -1,11 +1,10 @@
-name: OpenWrt-R4S
+name: OpenWrt-X86
 
 on:
   schedule:
-    - cron: 0 0 * * 1
-  #watch:
-    #types: started
-  workflow_dispatch:
+    - cron: 0 0 * * 3
+  watch:
+    types: started
 
 jobs:
   
@@ -85,7 +84,7 @@ jobs:
     - name: Prepare Mixedwrt
       run: |
         sudo chown -R runner:runner /home/runner/work/R2S-R4S-X86-OpenWrt
-        cp -r ./SCRIPTS/R4S/. ./SCRIPTS/
+        cp -r ./SCRIPTS/X86/. ./SCRIPTS/
         cp -r ./SCRIPTS/. ./
         /bin/bash 01_get_ready.sh
     - name: Prepare Package
@@ -108,7 +107,7 @@ jobs:
     - name: Make Config
       run: |
         cd openwrt
-        mv ../SEED/R4S/config.seed .config
+        mv ../SEED/X86/config.seed .config
         make defconfig
     - name: Smart chmod
       run: |
@@ -139,7 +138,7 @@ jobs:
     - name: Cleaning
       run: |
         df -h
-        cd openwrt/bin/targets/rockchip/armv8
+        cd openwrt/bin/targets/x86/64
         /bin/bash ../../../../../SCRIPTS/06_cleaning.sh
     - name: Print Disk Space After
       run: df -h
@@ -148,11 +147,11 @@ jobs:
       run: |
         rm -rf ./artifact/
         mkdir -p ./artifact/
-        cp openwrt/bin/targets/rockchip/armv8/*squashfs-sysupgrade.img.gz ./artifact/
+        cp openwrt/bin/targets/x86/64/*combined-squashfs.img.gz ./artifact/
         cd openwrt
         cd ..
         zip -r artifact.zip ./artifact/
-        release_tag="R4S-build-$(date +%Y-%m-%d-%H)-xxxbrian"
+        release_tag="X86-build-$(date +%Y-%m-%d-%H)-xxxbrian"
         echo "##[set-output name=release_tag;]$release_tag"
     - name: Upload Artifact
       uses: actions/upload-artifact@main
@@ -165,7 +164,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: R4S
+        tag_name: X86
         release_name: 自动发布 ${{ steps.assemble_artifact.outputs.release_tag }}
         draft: false
         prerelease: false

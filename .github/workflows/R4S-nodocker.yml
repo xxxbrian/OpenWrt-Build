@@ -2,7 +2,7 @@ name: OpenWrt-R4S-nodocker
 
 on:
   schedule:
-    - cron: 0 0 * * 1
+    - cron: 0 0 * * 2
   #watch:
     #types: started
   workflow_dispatch:
@@ -152,7 +152,7 @@ jobs:
         cd openwrt
         cd ..
         zip -r artifact.zip ./artifact/
-        release_tag="R2S-build-$(date +%Y-%m-%d-%H)-xxxbrian"
+        release_tag="R4S-nodocker-build-$(date +%Y-%m-%d-%H)-xxxbrian"
         echo "##[set-output name=release_tag;]$release_tag"
     - name: Upload Artifact
       uses: actions/upload-artifact@main
