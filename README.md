@@ -6,13 +6,14 @@ OpenWrt for Nanopi R2S R4S
 ![OpenWrt-X86](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-X86/badge.svg)-->
 
 ## Based on the original OpenWrt, build for Friendly NanoPi
-[[Github-OpenWrt]](https://github.com/openwrt/openwrt) | [[Friendly NanoPi R2s]](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R2S)
+[Github-OpenWrt](https://github.com/openwrt/openwrt) | [Friendly NanoPi R2s](https://wiki.friendlyarm.com/wiki/index.php/NanoPi_R2S)
 
 ### Now Supports R2S/R4S/X86
 
 ### Dowload
 - [X86](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/X86)
 - [R2S](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/R2S)
+- [R2S (whithout docker)](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/R2S-nodocker)
 - [R4S](https://github.com/XXXBRIAN/OpenWrt-Build/releases/tag/R4S)
 
 ### Usage
