@@ -3,8 +3,8 @@ name: OpenWrt-R4S
 on:
   schedule:
     - cron: 0 0 * * 1
-  #watch:
-    #types: started
+  watch:
+    types: started
   workflow_dispatch:
 
 jobs:
