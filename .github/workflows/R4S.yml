@@ -168,7 +168,7 @@ jobs:
         tag_name: R4S-$(date +%Y-%m-%d)
         release_name: 自动发布 ${{ steps.assemble_artifact.outputs.release_tag }}
         draft: false
-        prerelease: false
+        prerelease: true
 
     - name: Upload Release Asset
       id: upload-release-asset
