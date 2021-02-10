@@ -2,7 +2,7 @@ name: OpenWrt-R2S-nodocker
 
 on:
   schedule:
-    - cron: 0 0 * * 0
+    - cron: 0 0 * * 6
   #watch:
     #types: started
   workflow_dispatch:
@@ -85,7 +85,7 @@ jobs:
     - name: Prepare Mixedwrt
       run: |
         sudo chown -R runner:runner /home/runner/work/OpenWrt-Build
-        cp -r ./SCRIPTS/R2S-nodocker/. ./SCRIPTS/
+        cp -r ./SCRIPTS/R2S/. ./SCRIPTS/
         cp -r ./SCRIPTS/. ./
         /bin/bash 01_get_ready.sh
     - name: Prepare Package
