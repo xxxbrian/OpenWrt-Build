@@ -3,6 +3,8 @@ OpenWrt for Nanopi R2S R4S
 
 ![OpenWrt-R2S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S/badge.svg)
 ![OpenWrt-R2S-nodocker](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S-nodocker/badge.svg)
+![OpenWrt-R4S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R4S/badge.svg)
+![OpenWrt-R4S-nodocker](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R4S-nodocker/badge.svg)
 <!--
 ![OpenWrt-R4S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R4S/badge.svg)
 ![OpenWrt-X86](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-X86/badge.svg)-->
