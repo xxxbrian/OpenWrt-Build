@@ -85,7 +85,7 @@ jobs:
     - name: Prepare Mixedwrt
       run: |
         sudo chown -R runner:runner /home/runner/work/OpenWrt-Build
-        cp -r ./SCRIPTS/. ./
+        cp -r ./SCRIPTS/X86/. ./SCRIPTS/
         /bin/bash 01_get_ready.sh
     - name: Prepare Package
       run: |
