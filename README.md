@@ -1,5 +1,5 @@
 # OpenWrt-Build
-OpenWrt for Nanopi R2S R4S
+Building OpenWrt by GitHub Actions. Support nanopi R2S/R4S/X86.
 
 ![OpenWrt-R2S](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S/badge.svg)
 ![OpenWrt-R2S-nodocker](https://github.com/XXXBRIAN/OpenWrt-Build/workflows/OpenWrt-R2S-nodocker/badge.svg)
